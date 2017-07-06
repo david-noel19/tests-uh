@@ -1,0 +1,19 @@
+Test shmem_short_get: Passed
+ Test shmem_int_get: Passed
+ Test shmem_long_get: Passed
+ Test shmem_longdouble_get: Passed
+ Test shmem_longlong_get: Passed
+ Test shmem_double_get: Passed
+ Test shmem_float_get: Passed
+ Test shmem_getmem: Passed
+ Test shmem_get32: Passed
+ Test shmem_get64: Passed
+ Test shmem_get128: Passed
+ Test shmem_short_g: Passed
+ Test shmem_int_g: Passed
+ Test shmem_long_g: Passed
+ Test shmem_double_g: Passed
+ Test shmem_float_g: Passed
+ All Tests Passed
+
+Exit code: 0

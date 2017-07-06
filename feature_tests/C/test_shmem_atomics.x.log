@@ -1,0 +1,17 @@
+Test shmem_int_swap: Passed
+ Test shmem_float_swap: Passed
+ Test shmem_long_swap: Passed
+ Test shmem_double_swap: Passed
+ Test shmem_longlong_swap: Passed
+ Test shmem_int_cswap: Passed
+ Test shmem_long_cswap: Passed
+ Test shmem_longlong_cswap: Passed
+ All Tests Passed
+ Test shmem_int_fadd: Passed
+ Test shmem_long_fadd: Passed
+ Test shmem_longlong_fadd: Passed
+ Test shmem_int_finc: Passed
+ Test shmem_long_finc: Passed
+ Test shmem_longlong_finc: Passed
+
+Exit code: 0

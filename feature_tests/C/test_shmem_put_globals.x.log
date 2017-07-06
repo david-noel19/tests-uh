@@ -1,0 +1,27 @@
+Test shmem_short_put: Passed
+ Test shmem_int_put: Passed
+ Test shmem_long_put: Passed
+ Test shmem_longdouble_put: Passed
+ Test shmem_longlong_put: Passed
+ Test shmem_double_put: Passed
+ Test shmem_float_put: Passed
+ Test shmem_putmem: Passed
+ Test shmem_put32: Passed
+ Test shmem_put64: Passed
+ Test shmem_put128: Passed
+ Test shmem_iput32: Passed
+ Test shmem_iput64: Passed
+ Test shmem_iput128: Passed
+ Test shmem_short_iput: Passed
+ Test shmem_int_iput: Passed
+ Test shmem_long_iput: Passed
+ Test shmem_double_iput: Passed
+ Test shmem_float_iput: Passed
+ Test shmem_short_p: Passed
+ Test shmem_int_p: Passed
+ Test shmem_long_p: Passed
+ Test shmem_double_p: Passed
+ Test shmem_float_p: Passed
+ All Tests Passed
+
+Exit code: 0

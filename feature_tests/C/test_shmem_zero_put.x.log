@@ -1,0 +1,14 @@
+Test shmem_short_put of zero length: Passed
+ Test shmem_int_put of zero length: Passed
+ Test shmem_long_put of zero length: Passed
+ Test shmem_longdouble_put of zero length: Passed
+ Test shmem_longlong_put of zero length: Passed
+ Test shmem_double_put of zero length: Passed
+ Test shmem_float_put of zero length: Passed
+ Test shmem_putmem of zero length: Passed
+ Test shmem_put32 of zero length: Passed
+ Test shmem_put64 of zero length: Passed
+ Test shmem_put128 of zero length: Passed
+ All Tests Passed
+
+Exit code: 0

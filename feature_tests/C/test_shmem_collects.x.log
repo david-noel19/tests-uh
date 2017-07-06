@@ -1,0 +1,7 @@
+Test shmem_fcollect32: Passed
+ Test shmem_fcollect64: Passed
+ Test shmem_collect32: Passed
+ Test shmem_collect64: Passed
+ All Tests Passed
+
+Exit code: 0

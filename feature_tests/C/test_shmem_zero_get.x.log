@@ -1,0 +1,3 @@
+srun: error: Invalid numeric value "p" for number of tasks.
+
+Exit code: 256

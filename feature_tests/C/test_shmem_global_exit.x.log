@@ -1,0 +1,9 @@
+aborting job:
+ PE 0 called shmem_global_exit with status 99
+ srun: error: nid00047: task 0: Exited with exit code 255
+ srun: Terminating job step 44861.105
+ srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+ slurmstepd: error: *** STEP 44861.105 ON nid00047 CANCELLED AT 2017-07-05T14:56:33 ***
+ srun: error: nid00047: task 1: Killed
+
+Exit code: 65280

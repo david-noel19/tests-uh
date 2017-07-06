@@ -1,0 +1,6 @@
+Test shmem_info_get_version (Major):Passed
+ Test shmem_info_get_version (Minor):Passed
+ Test shmem_info_get_name: Passed
+ All Tests Passed
+
+Exit code: 0

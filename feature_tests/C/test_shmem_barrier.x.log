@@ -1,0 +1,5 @@
+Test shmem_barrier_all: Passed
+ Test shmem_barrier: Passed
+ All Tests Passed
+
+Exit code: 0

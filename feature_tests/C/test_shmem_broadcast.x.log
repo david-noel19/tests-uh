@@ -1,0 +1,6 @@
+Test shmem_broadcast32: Passed
+ Test shmem_broadcast64: Passed
+ Number of PEs must be > 2 to test strided broadcast, test skipped
+ All Tests Passed
+
+Exit code: 0

@@ -56,7 +56,7 @@ RUNCMD=oshrun
 RUNOPT=
 NCOREOPT=
 NCORE=
-NPROCOPT=-np
+NPROCOPT=-n
 NPROC=2
 
 C_TESTS		= $(wildcard *.c)

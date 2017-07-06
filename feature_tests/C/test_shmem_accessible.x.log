@@ -1,0 +1,8 @@
+Test Global Address Accessible: Passed
+ Test Static Global Address Accessible: Passed
+ Test Stack Address Accessible: Passed
+ Test Shmalloc-ed Address Accessible: Passed
+ Test shmem_pe_accessible: Passed
+ All Tests Passed
+
+Exit code: 0

@@ -62,9 +62,9 @@ help:
 		micro_bench micro_bench-run		\
 		clean
 
-compile: C_feature_tests F_feature_tests F_error_tests micro_bench
+compile: C_feature_tests  micro_bench
 
-run: C_feature_tests-run F_feature_tests-run F_error_tests-run micro_bench-run
+run: C_feature_tests-run  micro_bench-run
 
 C_feature_tests: 
 	cd feature_tests/C; $(MAKE) all

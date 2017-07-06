@@ -154,7 +154,7 @@ sub execute_test($){
   my $log_filename = "$test_config->{'executable'}" . ".log";
   my $log_fh;
 
-  my $test_pid = open TEST_OUT, "-|", "$RUN_CMD $RUN_OPTIONS -np $test_config->{'npes'} ./$test_config->{'executable'} 2>&1";
+  my $test_pid = open TEST_OUT, "-|", "$RUN_CMD $RUN_OPTIONS -n $test_config->{'npes'} ./$test_config->{'executable'} 2>&1";
 
   $SIG{'INT'} = sub {
       kill 'KILL', $test_pid;
@@ -343,7 +343,7 @@ sub read_test_config($){
        exit;
      }
      $ht_tmp->{'npes'} = $tmp_value;
-
+     print "tmp_value=$tmp_value \n";
      $tmp_value = clean_string($elems[2]);
      if($tmp_value eq ""){
        print "Error: Configuration file, line $line_num >> Test does not have a title :(\n";
