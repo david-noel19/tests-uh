@@ -65,6 +65,10 @@
 int
 main ()
 {
+
+
+# if defined(_SHMEM_MAJOR_VERSION)
+
     char name[_SHMEM_MAX_NAME_LEN];
     int major_ver, minor_ver;
     int me;
@@ -95,6 +99,7 @@ main ()
           fail_count++;
       }
 
+
       if (strlen (name) < _SHMEM_MAX_NAME_LEN) {
           PRINT_NAME("Passed");
       }
@@ -112,4 +117,10 @@ main ()
     shmem_finalize ();
 
     return 0;
+
+# endif
+	
+   return -1;
+
+
 }
